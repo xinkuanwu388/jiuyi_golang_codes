@@ -34,7 +34,7 @@ func tcpGather(ips []string) {
 }
 
 func readFile() []string {
-	
+
 	file, err := os.Open("xx.txt")
 	if err != nil {
 		fmt.Println(err)
